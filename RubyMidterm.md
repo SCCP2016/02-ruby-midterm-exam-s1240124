@@ -131,6 +131,7 @@ puts a.upcase
 
 puts a.slice(1,4)
 
+puts a.tr("a-c", "A-C")
 
 ```
 
