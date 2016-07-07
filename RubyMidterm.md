@@ -34,13 +34,17 @@ puts 'Hello World'
 
 ```
 # 存在しない型
-
+Bool
 # 存在する型と具体例
 # [答え方の例]
 # 型: 具体例
-Fixnum
+Fixnum: 467
 
-Bignum
+Bignum: 9999999
+
+Float: 3.14
+
+String: "HELLO"
 
 ```
 
@@ -70,6 +74,25 @@ Bignum
 # 出力例2
 # 1000
 
+a, b = STDIN.gets.split.map(&:to_i)
+
+if a <= 12 then
+    prime = 700
+elsif a <= 18 then
+    prime = 1000
+elsif a <= 22 then
+    prime = 1200
+else
+    prime = 1500
+end
+
+if b == 1
+   wari = 200 
+else
+   wari = 0
+end
+
+puts prime - wari
 
 ```
 
@@ -94,6 +117,16 @@ dc?5ba
 AB5?CD
 b5?c
 AB?Cd
+
+
+a = STDIN.gets.split(' ')
+
+puts a
+
+puts a.size
+
+puts a.reverse
+
 ```
 
 ## 5. 適切なプログラムを書け

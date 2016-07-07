@@ -1,0 +1,13 @@
+a, b = STDIN.gets.split.map(&:to_i)
+
+if a <= 12 then
+    prime = 700
+elsif a <= 18 then
+    prime = 1000
+elsif a <= 22 then
+    prime = 1200
+else
+    prime = 1500
+end
+
+puts prime
