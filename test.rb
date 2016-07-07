@@ -1,7 +1,13 @@
-a = STDIN.gets.split(' ')
+a = gets.chomp
 
 puts a
 
-puts a.size
+puts a.length
 
 puts a.reverse
+
+puts a.upcase
+
+puts a.slice(1,4)
+
+puts a.

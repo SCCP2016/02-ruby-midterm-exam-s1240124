@@ -86,7 +86,7 @@ else
     prime = 1500
 end
 
-if b == 1
+if b == 1 then
    wari = 200 
 else
    wari = 0
@@ -119,13 +119,18 @@ b5?c
 AB?Cd
 
 
-a = STDIN.gets.split(' ')
+a = gets.chomp
 
 puts a
 
-puts a.size
+puts a.length
 
 puts a.reverse
+
+puts a.upcase
+
+puts a.slice(1,4)
+
 
 ```
 
